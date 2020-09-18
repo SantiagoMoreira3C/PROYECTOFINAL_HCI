@@ -1,0 +1,98 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Realizar un pedido</title>
+        <link rel="icon" type="image/png" href="imagen/iconoJC.png">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="EstilosCSS/styles.css">
+        <link rel="stylesheet" href="EstilosCSS/realizarPedido.css">
+        <script src="js/validaciones.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+            <header>
+                <div class="ancho">
+                    <div class="logo">
+                        <a href="paginaCliente.html"><img src="imagen/logotipoJC.png" alt="JC Software"></a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="paginaCliente.html">Volver a inicio</a></li>
+                            <li><a href="index.html">Cerrar Sesión</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            <section class="container">  
+                <div class="card">
+                <p class="Solicitud" ><h2><strong>Solicitud del producto</strong></h2></p>
+                <p>Escoja el producto correcto, presione enviar y su pedido será tratado. </p> 
+                <div class="fakeimg" style="width: 200px" ></div>     
+                <div>
+                <div class="contenedor-form">
+                  <div class="toggle">
+                  </div>
+                  <div class="formulario">
+                      <h2><strong>Escoja su dispostivo por favor</strong></h2>
+                      <h5>Registro de pedidos </h5>
+                      <br>
+                      <form id="formRegi">
+                        <input type="checkbox" name="Tour1" value="Bike">
+            <label for="Tour1">Reparación de computadora de escritorio</label><br>
+            <input type="checkbox" name="Tour2" value="Bikee">
+            <label for="Tour2">Reparación de portátiles</label><br>
+                  <div>
+            <p>
+              <label for="name">Nombre </label><br>
+              <input type="text"  id="txtNombreusuarioRegistro"  
+              placeholder="Ingrese su nombre"
+              autofocus
+              autocomplete>
+            </p>
+          <p>
+              <label for="name">Apellido </label><br>
+              <input type="text"  id="txtApellidoUsuarioregistro"
+              placeholder="Ingrese su apellido"
+              autofocus
+              autocomplete
+              >
+            </p>
+          
+          <p>
+              <label for="name">Dirección </label><br>
+             <input type="text" id="txtDirUsuarioRegistro"
+              placeholder="Ingrese su dirección"
+              autofocus
+              autocomplete
+              >
+            </p>
+          
+            <p>
+              <label for="email">Email</label>
+              <input type="email" placeholder="Ingrese su correo electrónico" id="txtEmailUsaurioRegistro"
+             /></p>
+            </p>
+              <p>
+               <input type="submit" class="button" value="Enviar">
+              </p>
+            </form>
+          </div>   
+              </div>
+              </div>   
+              <script src="js/validaciones.js"></script>
+          </section>
+
+            <footer class="footer">
+                <div class="divfooter">
+                    <div>
+                        <p>JC Software: Soluciones Tecnológicas</p>
+                    </div>
+                    <div>
+                        <p>FACCI 2020</p>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>

@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#general{
+    margin: auto;
+    background-image: url(../imagen/fondoLineas.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    /*background-color: gray;*/
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    background: #009770;
+    width: 100%;
+    height: 70px;
+}
+
+.ancho{
+    background: inherit;
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+
+.logo{
+    background: inherit;
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+
+.logo a img{
+    width: 200px;
+    height: 70px;
+}
+nav{
+    background: inherit;
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul li a:hover{
+    color: rgb(37, 28, 26);
+}
+
+
+/*seccion bienvenida-principal*/
+
+
+h1{
+    color: black;
+    line-height: 150%;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+
+h1 strong{
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+    color: rgb(59, 145, 98);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3{
+    color: black;
+    font-size: 25px;
+    letter-spacing: .2;
+    /*font-family: osw;*/
+}
+
+.hero{
+    height: 570px;
+    max-width: 100%;
+    background-image: url(../imagen/fondoBienvenida.jpg);
+    background-size: 100% 600px;  
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 131px;
+    margin-right: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   /* margin:  0px;*/
+}
+
+.bienvenida{
+    max-width: 80%;
+    flex: 1;
+    margin: 450px 140px;
+    display: flex;
+    justify-content: inherit;
+    align-items: inherit;
+    height: 20px;
+    flex-wrap: inherit;
+}
+
+/*seccion servicios*/
+.nuestros-servicios{
+    margin: auto;
+    margin-left: 131px;
+    margin-right: 131px;
+    background-color: #e7884f;
+    font-family: 'Oswald', sans-serif;
+    color:black;
+    font-size: 20px;
+}
+
+h2 strong{
+    color: black;
+}
+
+.listado-servicios{
+    max-width: 1000px;
+    flex: 1;
+    margin-top:20px;
+    margin: auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    padding-bottom: 15px;
+} 
+
+.services{
+
+    border:1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .detalle-servicio{
+     text-align: center;
+     width: 500px;
+     flex-shrink: 0;
+ }
+
+ .servicio-Contenedorimagen{
+     width:500px;
+     flex-shrink: 0;
+ }
+
+ #seccion-wwa{
+    margin: auto;
+    margin-top: 0;
+}
+
+/*seccion Quienes somos*/
+
+.quienes-somos{
+    margin: auto;
+    margin-left: 131px;
+    margin-right: 131px;
+    background-color: #e7884f;
+    font-family: 'Oswald', sans-serif;
+    color:black;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.info-wwa{
+    max-width: 1000px;
+    flex: 1;
+    margin: auto;
+    margin-top: 0;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    padding-bottom: 15px;
+} 
+
+.informacion{
+
+    border:1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.facci-Contenedorimagen{
+    width:500px;
+    flex-shrink: 0;
+}
+
+.informacion-detalle{
+    text-align: center;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+/*seccion contactos-ubicacion*/
+.contactos{
+    background-color: #009770;
+    color: white;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.divcontacto{
+    max-width: 1000px;
+    flex: 1;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacto-telefono{
+    /*height: 50px;
+    width: 50px;*/
+    display: inline;
+    background-size: 50px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+/*pie de pagina*/ 
+
+.footer{
+    letter-spacing: 0.3;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    background-color: #00110f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.divfooter{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+}

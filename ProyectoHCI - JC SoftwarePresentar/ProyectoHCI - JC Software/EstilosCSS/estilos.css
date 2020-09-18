@@ -1,0 +1,177 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #b1b1b1;
+    color: white;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 90px;
+    justify-content: space-between;
+}
+
+header a{
+    color: red;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.menu{
+    list-style: none;
+    height: inherit;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    height: inherit;
+}
+
+header ul li{
+    height: inherit;
+}
+
+h1{
+    color: white;
+    line-height: 150%;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+h1 strong{
+    color: #0550ff;
+}
+
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero{
+    height: 500px;
+    background-image: url(../imagen/fondoBienvenida.jpg);
+    background-size: 1000px 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.nuestros-servicios{
+    background-color: #fafafa;
+}
+
+.servicio{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detalle-servicio{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.servicio-Contenedorimagen{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.quienes-somos{
+    background-color: #fafafa;
+}
+
+.informacion{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.facci-Contenedorimagen{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.informacion-detalle{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.contactos{
+    background-color: #009770;
+    color: white;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacto-telefono{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    background-size: 50 px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

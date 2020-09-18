@@ -1,0 +1,101 @@
+body{
+    display: block;
+   background-position: center center;   
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+   background-image:url("../imagen/agua-gas.jpg");
+}
+tr{
+  background-color:#b19fb8be;
+  text-decoration:#040a11;
+  
+}
+th{
+background-color:#518383;
+text-decoration:#070707e6;
+}
+td{
+  text-align:center;
+  text-decoration:#ffc107;;
+  max-width: 600px;
+}
+
+table-bordered{
+  color:#080808;
+}
+
+p{
+  justify-content:20px; 
+  font-size: 21px;
+  width:center;
+}
+table-bordered{
+  background-color:#ffc107;
+}
+
+order-table{
+  background-color:#131010 ;
+} 
+h1{
+  background-color:#007bff ;
+  font-size: 18px;
+  line-height: 18px;
+}
+section{
+    max-width: 80%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+width: 870px; 
+margin: auto;
+background-color: solid;
+shape-margin: 80px;
+column-span: 80px;
+}
+
+.container{
+    padding-top: 15px;
+    /*max-width: 800px;*/
+    background-color:#2774a0;
+    position: static;
+    width: 820px;
+    height: 820px;
+}
+
+button{
+    background-color:#429431;
+  border: rgb(59, 68, 68);
+  color: rgb(19, 12, 12);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.admfooter{
+    letter-spacing: 0.3;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    background-color: #00110f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.admdivfooter{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+}
